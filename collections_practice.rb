@@ -30,6 +30,9 @@ def sum_array(array)
   
 end 
 def add_s(array) 
-  
+  if array[i] != array[1] 
+    array.each do |word| 
+      "#{word}" + "s" 
+    end
 end 
 
