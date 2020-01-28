@@ -29,7 +29,8 @@ end
 def sum_array(array) 
   sum = 0 
   array.each do |number| 
-    sum += number
+    sum += number 
+  end
 end 
 def add_s(array) 
   array.collect do |word| 
