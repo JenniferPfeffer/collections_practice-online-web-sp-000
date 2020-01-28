@@ -19,7 +19,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |string| 
-    when 
+    when string[2] 
 end 
 def find_a(array) 
   
